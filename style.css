@@ -35,3 +35,9 @@ form {
     cursor: pointer;
     font-size: 16px;
 }
+
+#notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
