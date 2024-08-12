@@ -49,3 +49,8 @@ form {
     width: calc(33.333% - 20px);
     box-sizing: border-box;
 }
+
+.note h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
