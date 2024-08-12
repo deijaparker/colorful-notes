@@ -54,3 +54,8 @@ form {
     margin-top: 0;
     font-size: 20px;
 }
+
+.note p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
