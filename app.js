@@ -9,4 +9,14 @@ noteForm.addEventListener('submit', function(e) {
     // Get form values
     const title = document.getElementById('note-title').value;
     const content = document.getElementById('note-content').value;
-    const color = document.getElementById('note-color').value;
+    const color = document.getElementById('note-color').value; 
+
+    // Form validation
+    if (!title || !content) {
+        alert('Please fill in both the title and content.');
+        return;
+    }
+    if (title.length > 50) {
+        alert('Title should be under 50 characters.');
+        return;
+    }
