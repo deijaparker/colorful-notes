@@ -38,3 +38,7 @@ function createNoteElement(title, content, color) {
     const noteTitle = document.createElement('h2');
     noteTitle.textContent = title;
     note.appendChild(noteTitle);
+
+    const noteContent = document.createElement('p');
+    noteContent.textContent = content;
+    note.appendChild(noteContent);
