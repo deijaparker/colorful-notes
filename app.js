@@ -24,3 +24,7 @@ noteForm.addEventListener('submit', function(e) {
     // Create and append note element
     const note = createNoteElement(title, content, color);
     notesContainer.appendChild(note);
+
+    // Clear form fields
+    noteForm.reset();
+});
