@@ -7,3 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+<body>
+    <h1>Colorful Notes</h1>
+    <form id="note-form">
+        <input type="text" id="note-title" placeholder="Note Title" required>
+        <textarea id="note-content" placeholder="Note Content" required></textarea>
+        <select id="note-color">
+            <option value="yellow">Yellow</option>
+            <option value="pink">Pink</option>
+            <option value="lightblue">Light Blue</option>
+            <option value="lightgreen">Light Green</option>
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+        </select>
+        <button type="submit">Add Note</button>
+    </form>
+    <div id="notes-container"></div>
+    <script src="app.js"></script>
+</body>
+</html>
