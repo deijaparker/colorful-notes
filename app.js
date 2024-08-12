@@ -28,3 +28,9 @@ noteForm.addEventListener('submit', function(e) {
     // Clear form fields
     noteForm.reset();
 });
+
+// Function to create note element
+function createNoteElement(title, content, color) {
+    const note = document.createElement('div');
+    note.classList.add('note');
+    note.style.backgroundColor = color;
