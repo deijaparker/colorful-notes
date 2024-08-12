@@ -17,3 +17,7 @@ Colorful Notes is a simple web application that allows users to create, display,
 ## How to Run
 1. Clone the repository.
 2. Open `index.html` in your browser.
+
+## Future Improvements
+- Add the ability to edit notes.
+- Implement search functionality for notes.
