@@ -42,3 +42,6 @@ function createNoteElement(title, content, color) {
     const noteContent = document.createElement('p');
     noteContent.textContent = content;
     note.appendChild(noteContent);
+
+    return note;
+}
