@@ -20,3 +20,7 @@ noteForm.addEventListener('submit', function(e) {
         alert('Title should be under 50 characters.');
         return;
     }
+
+    // Create and append note element
+    const note = createNoteElement(title, content, color);
+    notesContainer.appendChild(note);
