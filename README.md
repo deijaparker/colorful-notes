@@ -8,3 +8,8 @@ Colorful Notes is a simple web application that allows users to create, display,
 - Display notes in a responsive layout.
 - Delete notes by clicking on them.
 - Form validation for required fields.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript (DOM Manipulation)
