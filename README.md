@@ -13,3 +13,7 @@ Colorful Notes is a simple web application that allows users to create, display,
 - HTML
 - CSS
 - JavaScript (DOM Manipulation)
+
+## How to Run
+1. Clone the repository.
+2. Open `index.html` in your browser.
