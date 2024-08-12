@@ -45,3 +45,10 @@ function createNoteElement(title, content, color) {
 
     return note;
 }
+
+// Event listener to delete note on click
+notesContainer.addEventListener('click', function(e) {
+    if (e.target.closest('.note')) {
+        e.target.closest('.note').remove();
+    }
+});
