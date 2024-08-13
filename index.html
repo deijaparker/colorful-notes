@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colorful Notes</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1037/1037120.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/1037/1037120.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <h1>Colorful Notes</h1>
     <form id="note-form">
-        <input type="text" id="note-title" placeholder="Note Title" required>
-        <textarea id="note-content" placeholder="Note Content" required></textarea>
-        <select id="note-color">
-            <option value="yellow">Yellow</option>
-            <option value="pink">Pink</option>
-            <option value="lightblue">Light Blue</option>
-            <option value="lightgreen">Light Green</option>
-            <option value="orange">Orange</option>
-            <option value="purple">Purple</option>
-        </select>
-        <button type="submit">Add Note</button>
+      <input type="text" id="note-title" placeholder="Note Title" required />
+      <textarea
+        id="note-content"
+        placeholder="Note Content"
+        required
+      ></textarea>
+      <select id="note-color">
+        <option value="yellow">Yellow</option>
+        <option value="pink">Pink</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgreen">Light Green</option>
+        <option value="orange">Orange</option>
+        <option value="purple">Purple</option>
+      </select>
+      <button type="submit">Add Note</button>
     </form>
     <div id="notes-container"></div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
