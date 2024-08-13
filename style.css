@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #f06, #ffcc00, #ff6a00, #f06); /* Gradient background */
+    background-size: 400% 400%; /* Allows for animation to move through the gradient */
+    animation: gradientAnimation 15s ease infinite; /* Animation for a dynamic gradient */
     margin: 0;
     padding: 20px;
 }
